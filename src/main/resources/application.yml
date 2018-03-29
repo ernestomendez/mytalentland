@@ -1,0 +1,14 @@
+#spring:
+#  data:
+#    mongo:
+#      host: localhost
+#      port: 32771
+#      database: admin
+#      username: ernesto
+#      password: admin
+      #uri: mongodb://prototype:changeit@localhost:27017/prototype_db_dev
+      #uri: mongo://mongo:ernesto@localhost:32771/admin
+      #uri: mongo://mongo:admin@3d4e6f634292:32771/general-db
+
+#spring.data.mongodb.uri: mongodb://<user>:<passwd>@<url>:<port>/<dbname>
+spring.data.mongodb.uri: mongodb://ernesto:admin@localhost:32771/admin
